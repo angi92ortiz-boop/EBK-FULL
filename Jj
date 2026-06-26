@@ -1,4 +1,4 @@
--- [[ ACUSADO NINJA HUB MASHMELLOW - ACUSADO DOMINA EDITION ]] --
+-- [[  EBK HUB MASHMELLOW - EBK DOMINA  ]] --
 -- LÓGICA ORIGINAL INTACTA | DISEÑO ROJO/NEGRO | ANTI-KICK 267
 
 local _K = "BACK01"
@@ -28,7 +28,7 @@ tag.Name = "AC_TAG_DOMINA"
 local MainRed = Color3.fromRGB(255, 0, 0)
 local DarkBg = Color3.fromRGB(5, 5, 5)
 
--- [ LOGIN: ACUSADO DOMINA ]
+-- [ LOGIN: EBK DOMINA ]
 local LoginFrame = Instance.new("Frame", ScreenGui)
 LoginFrame.Size = UDim2.new(0, 300, 0, 200)
 LoginFrame.Position = UDim2.new(0.5, -150, 0.4, -100)
@@ -40,7 +40,7 @@ LStroke.Thickness = 2
 
 local LTitle = Instance.new("TextLabel", LoginFrame)
 LTitle.Size = UDim2.new(1, 0, 0, 40)
-LTitle.Text = "ACUSADO DOMINA"
+LTitle.Text = "EBK DOMINA"
 LTitle.TextColor3 = MainRed
 LTitle.Font = Enum.Font.GothamBold
 LTitle.TextSize = 20
@@ -90,7 +90,7 @@ local function StartHub()
 
     local Title = Instance.new("TextLabel", MainFrame)
     Title.Size = UDim2.new(1, 0, 0, 40)
-    Title.Text = "ACUSADO NINJA HUB MASHMELLOW"
+    Title.Text = "EBK MASHMELLOW"
     Title.TextColor3 = MainRed
     Title.Font = Enum.Font.GothamBold
     Title.BackgroundTransparency = 1
@@ -189,7 +189,7 @@ local function StartHub()
     -- DELETE TOOL
     ToolBtn.MouseButton1Click:Connect(function()
         local t = Instance.new("Tool", lp.Backpack)
-        t.Name = "MASHMELLOW DELETE"
+        t.Name = " DELETE"
         t.RequiresHandle = false
         t.Activated:Connect(function()
             local m = lp:GetMouse()
@@ -242,7 +242,7 @@ local function StartHub()
             end
 
             InfoLabel.Text = string.format([[
-  [ ACUSADO MASHMELLOW HUB ]
+  [ EBK MASHMELLOW HUB ]
   DOMINANDO EL SERVIDOR...
   
   PRODUCTOS:
